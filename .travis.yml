@@ -5,3 +5,10 @@ notifications:
   
 services:
   - mysql
+
+before_script:
+  - mysql -e 'create database SushiPartyDB;'
+  sudo apt-get update -q
+  sudo apt-get install unzip
+  wget http://download.java.net/glassfish/4.1/release/glassfish-4.1.zip
+  unzip glassfish-4.1.zip -d /opt
