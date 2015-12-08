@@ -13,4 +13,6 @@ before_install:
   - sudo apt-get -y install unzip
   - sudo wget http://download.java.net/glassfish/4.1/release/glassfish-4.1.zip
   - sudo unzip glassfish-4.1.zip -d /opt
+  - sudo /opt/glassfish4/bin/asadmin start-domain
+  
  
