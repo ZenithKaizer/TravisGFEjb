@@ -8,6 +8,6 @@ notifications:
 services:
   - mysql
 
-before_script:
+before_install:
   - echo " kjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj "
  
