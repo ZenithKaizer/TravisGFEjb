@@ -1,5 +1,7 @@
 language: java
 
+sudo: required
+
 notifications:
   email: false
   
@@ -7,10 +9,5 @@ services:
   - mysql
 
 before_script:
-  - mysql -e 'create database SushiPartyDB;'
   - echo " kjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj "
-  - apt-get update -qq
-  - apt-get -y install unzip
-  - wget http://download.java.net/glassfish/4.1/release/glassfish-4.1.zip
-  - unzip glassfish-4.1.zip -d /opt
-  - echo " fin ----------------------------------------------------------------- "
+ 
