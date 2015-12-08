@@ -91,7 +91,7 @@
                     <passwordFile>${basedir}/glassfishpasswordfile</passwordFile>
                     <domain>
                         <name>domain1</name>
-		        host>localhost</host>
+		        <host>localhost</host>
                         <adminPort>4848</adminPort>
                         <httpPort>80</httpPort>
                         <httpsPort>8443</httpsPort>
